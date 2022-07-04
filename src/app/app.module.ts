@@ -16,6 +16,10 @@ import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { ProductoDetalleComponent } from './producto/producto-detalle.component';
+import { LoginComponent } from './auth/login.component';
+import { RegistroComponent } from './auth/registro.component';
+import { MenuComponent } from './menu/menu.component';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { ProductoDetalleComponent } from './producto/producto-detalle.component'
     ProductoListaComponent,
     ProductoNuevoComponent,
     ProductoEditarComponent,
-    ProductoDetalleComponent
+    ProductoDetalleComponent,
+    LoginComponent,
+    RegistroComponent,
+    MenuComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,
